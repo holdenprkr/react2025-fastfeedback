@@ -26,7 +26,6 @@ export default function Home() {
         ) : (
           <button onClick={(e) => auth.signinWithGithub()}>Sign In</button>
         )}
-       
       </main>
 
       <footer className={styles.footer}>
